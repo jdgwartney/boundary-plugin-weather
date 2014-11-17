@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "command": "java -jar plugin.jar com.boundary.plugin.weather.Plugin",
+    "icon" : "icon.png",
+    "metrics" : [
+	         "BOUNDARY_TEMPERATURE"
+                ],
+
+"paramArray": { "itemTitle": [ "name" ], "schemaTitle": "Metric Command" },
+    "paramSchema": [
+        {
+            "title": "AWS Access Key Id",
+            "name": "access_key_id",
+            "description": "Access Key for AWS",
+            "type": "string",
+            "default": "",
+            "required": true
+        },
+        {
+            "title": "AWS Secret Key",
+            "name": "secret_key",
+            "description": "Secret Key for AWS",
+            "type": "string",
+            "default": "",
+            "required": true
+        }
+    ]
+}

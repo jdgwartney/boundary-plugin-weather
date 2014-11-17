@@ -1,10 +1,6 @@
-package com.boundary;
+package com.boundary.plugin.weather.plugin;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class Plugin
 {
     public static void main( String[] args )
     {
